@@ -40,6 +40,9 @@ export NVM_DIR="$HOME/.nvm"
 
 # --- Alias ---
 alias tailscale="/Applications/Tailscale.app/Contents/MacOS/Tailscale"
+alias rsync="rsync -avh --progress"
+alias df="df -h"
+alias aria2c="aria2c -x10 -s10 -k1M"
 
 # --- (Optional) Tcl/Tk for Homebrew ---
 # export BREW_TCLTK_PREFIX="$(brew --prefix tcl-tk@8)"
